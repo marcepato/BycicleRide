@@ -1,106 +1,112 @@
-{
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ html {
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     
+ }
+ *{
+    margin: 0;
+     padding: 0;
+ }
 
-    }
+ .header {
+     background-color: #59A52C;
+     padding: 0.5%;
+     display: flex;
+     justify-content: space-between;
+     /*separa el logo y los link hacia los extremos horizontales*/
+     align-items: end;
+ }
 
-    .header {
-        background-color: #59A52C;
-        padding: 1%;
-        display: flex;
-        justify-content: space-between;
-        /*separa el logo y los link hacia los extremos horizontales*/
-        align-items: end;
-    }
+ .navBar {
+     width: 30%;
+     height: 4%;
+     display: flex;
+ }
 
-    .navBar {
-        
-        width: 30%;
-        height: 4%;
-        display: flex;
-    }
-
-    #home {
-        /*logo izq superior*/
-        width: 40%;
-    }
-
- .redes{
-    background-color: black;
-    
+ #home {
+     /*logo izq superior*/
+     width: 40%;
  }
 
 
 
-    .navlink {
-        /* links de header*/
-        color:#b9dfa3;
-        text-decoration: none;
-        margin: 3%;
-        padding: 1%;
-        border: 1%;
-        display: flexbox;
-        font-size: large;
-        font-weight: bold;
-    }
 
-    .navlink:hover {
-        color: #5a6355;
-    }
 
-    .imagen{
-        display: flex;
-        
-    }
+ .navlink {
+     /* links de header*/
+     color: #b9dfa3;
+     text-decoration: none;
+     margin: 3%;
+     padding: 1%;
+     border: 1%;
+     display: flexbox;
+     font-size: large;
+     font-weight: bold;
+ }
 
-    .imagen>img {
-        width: 100%;
-    }
+ .navlink:hover {
+     color: #5a6355;
+ }
 
-    .flexContainer {
-        display: flex;
-        flex-wrap: nowrap;
-        background-color: #b9dfa3;
-        flex-direction: row;
-     
-        justify-content:space-evenly;
-        padding: 0.5%;
-        border: 0.5%;
-    }
+ .imagen {
+     display: flex;
 
-    .flexContainer>div {
-        flex-direction: row;
-        background-color: white;
-        margin: 0.5%;
-        padding: 0.5%;
-        text-align: center;
-        font-size: 80%;
-        border-radius: 5%;
-       /* justify-content:space-evenly;*/
-        width: 70%;
-    }
+ }
 
-    .flexContainer h2 {
-        color:#59A52C;
+ .imagen>img {
+     width: 100%;
+ }
+
+ .flexContainer {
+     display: flex;
+     flex-wrap: nowrap;
+     background-color: #b9dfa3;
+     flex-direction: row;
+
+     justify-content: space-evenly;
+     padding: 0.5%;
+     border: 0.5%;
+ }
+
+ .flexContainer>div {
+     flex-direction: row;
+     background-color: white;
+     margin: 0.5%;
+     padding: 0.5%;
+     text-align: center;
+     font-size: 80%;
+     border-radius: 5%;
+     /* justify-content:space-evenly;*/
+     width: 70%;
+ }
+
+ .flexContainer h2 {
+     color: #59A52C;
+
+ }
+
+ .detalle {
+     text-align: left;
+     margin-left: 15%;
+ }
+
+ .detalle>p {
+     color: #59A52C;
+ }
+
+ .footer {
+     background-color: #59A52C;
+     color: #b9dfa3;
+     display: flexbox;
+     width: 100%;
+     text-align: center;
+     line-height: 100%;
        
-    }
 
-    .detalle {
-        text-align: left;
-        margin-left: 15%;
-    }
+ }
 
-    .detalle>p {
-        color:#59A52C;
-    }
 
-    .footer {
-        background-color: #59A52C;
-        color: #b9dfa3;
-        font-weight: bold;
-        display: flex;
-        height: 5rem;
-        text-align: center;
-    }
-   .footer > p{
-    text-align: center;
-   }
+ .redes>img {
+     width: 2rem;
+
+
+ }
