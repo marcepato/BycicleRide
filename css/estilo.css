@@ -1,14 +1,10 @@
- html {
-     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-     
- }
- *{
-    margin: 0;
+ * {
+     margin: 0;
      padding: 0;
  }
 
  .header {
-     background-color: #59A52C;
+     background-color: rgb(89, 165, 44);
      padding: 0.5%;
      display: flex;
      justify-content: space-between;
@@ -17,19 +13,25 @@
  }
 
  .navBar {
-     width: 30%;
+     width: 35%;
      height: 4%;
-     display: flex;
+     display: flexbox;
+    
  }
+ 
 
  #home {
      /*logo izq superior*/
      width: 40%;
  }
+ #wht{
+    width: 3%;
+    position:fixed; 
+    top:8%;
+    right: 5%;   
+ }
 
-
-
-
+ 
 
  .navlink {
      /* links de header*/
@@ -41,7 +43,9 @@
      display: flexbox;
      font-size: large;
      font-weight: bold;
+     
  }
+ 
 
  .navlink:hover {
      color: #5a6355;
@@ -49,12 +53,12 @@
 
  .imagen {
      display: flex;
-
  }
 
  .imagen>img {
      width: 100%;
  }
+
 
  .flexContainer {
      display: flex;
@@ -99,14 +103,16 @@
      display: flexbox;
      width: 100%;
      text-align: center;
-     line-height: 100%;
-       
+     }
+     
+     .footer> p{
+        padding:2%;
+        border: 1%;
+     }
 
- }
-
-
- .redes>img {
+ .redes  >img {
      width: 2rem;
+     
 
 
  }
