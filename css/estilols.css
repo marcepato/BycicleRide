@@ -1,0 +1,72 @@
+html {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+    .contenedor1 {
+        display: flex;
+    }
+   
+    .suc1:hover {
+        background-color: rgba(17, 227, 41, 0.34);;
+      }
+    .suc1 {
+         
+        padding: 5px;
+        text-align: center;
+        border: solid rgba(41, 203, 63,0.5) 4px;
+        border-radius: 25px;
+        background-color: rgba(158, 225, 152, 0.34 );
+        transition: width 2s;
+
+
+    }
+
+    #cards1 {
+        border: solid rgba(41, 203, 63,0.5) 2px;
+        border-radius: 25px;
+        text-align: center;
+        padding: 5px;
+        margin: 10px;
+
+    }
+ 
+    #cards2 {
+        border: solid rgba(41, 203, 63,0.5) 4px;
+        border-radius: 25px;
+        text-align: center;
+        padding: 5px;
+        margin: 10px;
+
+    }
+    #cards3 {
+        border: solid rgba(41, 203, 63,0.5) 1px;
+        
+        text-align: center;
+        padding: 5px;
+        margin: 10px;
+
+    }
+    .imag1{
+        position: relative;
+        width: 100%;
+    }
+    .imag2{
+        position: absolute;
+    } 
+
+    .imag3{
+        position: relative;
+        text-align: center;  
+    }
+     
+    
+    .centrado{
+        position: absolute;
+        top: 80%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 50px;
+        color: rgba(45, 237, 64, 0.971);
+
+    }
+     
