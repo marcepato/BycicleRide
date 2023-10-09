@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="reserva.css">
+    <title>Reserva de Bicicletas</title>
+    
+</head>
+<body>
+    <header>
+        <h1>Reserva tu Bicicleta</h1>
+    </header>
+    
+    <section>
+        <h2>Información del Cliente</h2>
+        <form>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required><br><br>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+            
+            <label for="telefono">Teléfono:</label>
+            <input type="tel" id="telefono" name="telefono" required><br><br>
+        </form>
+    </section>
+    
+    <section>
+        <h2>Selecciona tu Bicicleta</h2>
+        <form>
+            <label for="tipo">Tipo de Bicicleta:</label>
+            <select id="tipo" name="tipo">
+                <option value="montaña">Montaña</option>
+                <option value="ciudad">Ciudad</option>
+        
+            </select><br><br>
+            
+            <label for="fecha">Fecha de Reserva:</label>
+            <input type="date" id="fecha" name="fecha" required><br><br>
+            
+            <label for="tiempo">Tiempo de Alquiler (horas):</label>
+            <input type="number" id="tiempo" name="tiempo" required><br><br>
+        </form>
+    </section>
+    
+    <section>
+        <h2>Resumen de Reserva</h2>
+        <p>Cliente: <span id="resumen-nombre"></span></p>
+        <p>Email: <span id="resumen-email"></span></p>
+        <p>Teléfono: <span id="resumen-telefono"></span></p>
+        <p>Tipo de Bicicleta: <span id="resumen-tipo"></span></p>
+        <p>Fecha de Reserva: <span id="resumen-fecha"></span></p>
+        <p>Tiempo de Alquiler: <span id="resumen-tiempo"></span> horas</p>
+    </section>
+    
+    <button type="button" onclick="confirmarReserva()">Confirmar Reserva</button>
+    
+    <script>
+        function confirmarReserva() {
+            var nombre = document.getElementById("nombre").value;
+            var email = document.getElementById("email").value;
+            var telefono = document.getElementById("telefono").value;
+            var tipo = document.getElementById("tipo").value;
+            var fecha = document.getElementById("fecha").value;
+            var tiempo = document.getElementById("tiempo").value;
+            
+            document.getElementById("resumen-nombre").textContent = nombre;
+            document.getElementById("resumen-email").textContent = email;
+            document.getElementById("resumen-telefono").textContent = telefono;
+            document.getElementById("resumen-tipo").textContent = tipo;
+            document.getElementById("resumen-fecha").textContent = fecha;
+            document.getElementById("resumen-tiempo").textContent = tiempo;
+        }
+    </script>
+    
+</body>
+</html>
