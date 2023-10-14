@@ -31,23 +31,23 @@
      display: flex;
      flex-direction: row;
      flex-wrap: wrap;
+     width: 30%;
 
  }
  .navlink > a  {
     /* links de header*/
-    color: #b9dfa3;
+    color: rgb(185, 223, 163);
     text-decoration: none;
     margin: 1%;
-    padding: 1%;
-    border: 1%;
+    padding: 2%;
+    border: 2%;
     font-size:large;
     font-weight: bold;
-   
-
-}
+   }
 
  .navlink > a:hover {
      color: #222c1d;
+     
  }
 
  .imagen {
@@ -113,3 +113,67 @@
      width: 2rem;
 
  }
+
+ /* Inicio estilos de reserva*/
+
+ 
+section {
+    background-color:#b9dfa3;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(19, 129, 105, 0.2);
+    width: 80%;
+    
+}
+
+/* Estilos para formularios */
+form {
+    margin: 10px 0;
+    width: 80%;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select,
+input[type="date"],
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+/* Estilos para el botón de confirmación */
+button {
+    background-color: #48c066;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #48c004;
+}
+
+/* Estilos para el resumen de reserva */
+#resumen-nombre,
+#resumen-email,
+#resumen-telefono,
+#resumen-tipo,
+#resumen-fecha,
+#resumen-tiempo {
+    font-weight: bold;
+}
+
+/*fin estilos de reserva
