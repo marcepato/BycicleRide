@@ -7,80 +7,79 @@
      background-color: rgb(89, 165, 44);
      padding: 0.5%;
      display: flex;
-     justify-content: space-between;
+     flex-direction: row;
+     flex-wrap: wrap;
+    justify-content: space-between;
      /*separa el logo y los link hacia los extremos horizontales*/
      align-items: end;
  }
-
- .navBar {
-     width: 35%;
-     height: 4%;
-     display: flexbox;
-    
- }
- 
 
  #home {
      /*logo izq superior*/
      width: 40%;
  }
- #wht{
-    width: 3%;
-    position:fixed; 
-    top:8%;
-    right: 5%;   
+
+ #wht {
+     width: 3%;
+     position: fixed;
+     top: 6%;
+     right: 2%;
  }
 
+ .navlink  {
  
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
 
- .navlink {
-     /* links de header*/
-     color: #b9dfa3;
-     text-decoration: none;
-     margin: 3%;
-     padding: 1%;
-     border: 1%;
-     display: flexbox;
-     font-size: large;
-     font-weight: bold;
-     
  }
- 
+ .navlink > a  {
+    /* links de header*/
+    color: #b9dfa3;
+    text-decoration: none;
+    margin: 1%;
+    padding: 1%;
+    border: 1%;
+    font-size:large;
+    font-weight: bold;
+   
 
- .navlink:hover {
-     color: #5a6355;
+}
+
+ .navlink > a:hover {
+     color: #222c1d;
  }
 
  .imagen {
-     display: flex;
+     background-color: #b9dfa3;
  }
 
  .imagen>img {
      width: 100%;
  }
 
-
  .flexContainer {
      display: flex;
-     flex-wrap: nowrap;
-     background-color: #b9dfa3;
+     flex-wrap: wrap;
      flex-direction: row;
-
+     background-color: #b9dfa3;
      justify-content: space-evenly;
      padding: 0.5%;
      border: 0.5%;
  }
 
- .flexContainer>div {
-     flex-direction: row;
+ .card {
      background-color: white;
      margin: 0.5%;
      padding: 0.5%;
      text-align: center;
      font-size: 80%;
      border-radius: 5%;
-     /* justify-content:space-evenly;*/
-     width: 70%;
+     width: 30%;
+ }
+
+ .card>img {
+     width: 80%;
  }
 
  .flexContainer h2 {
@@ -103,16 +102,14 @@
      display: flexbox;
      width: 100%;
      text-align: center;
-     }
-     
-     .footer> p{
-        padding:2%;
-        border: 1%;
-     }
+ }
 
- .redes  >img {
+ .footer>p {
+     padding: 2%;
+     border: 1%;
+ }
+
+ .redes>img {
      width: 2rem;
-     
-
 
  }
