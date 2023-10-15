@@ -16,7 +16,7 @@
 
  #home {
      /*logo izq superior*/
-     width: 40%;
+     width: 150px;
  }
 
  #wht {
@@ -27,11 +27,8 @@
  }
 
  .navlink  {
- 
-     display: flex;
-     flex-direction: row;
-     flex-wrap: wrap;
-     width: 30%;
+    
+     width: 400px;
 
  }
  .navlink > a  {
@@ -55,8 +52,8 @@
  }
 
  .imagen>img {
-     width: 100%;
- }
+    width: 100%;
+}
 
  .flexContainer {
      display: flex;
@@ -75,12 +72,11 @@
      text-align: center;
      font-size: 80%;
      border-radius: 5%;
-     width: 30%;
+     width: 370px;
+    
  }
 
- .card>img {
-     width: 80%;
- }
+ 
 
  .flexContainer h2 {
      color: #59A52C;
