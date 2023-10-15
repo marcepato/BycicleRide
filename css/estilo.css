@@ -29,8 +29,8 @@
  .navlink  {
     
      width: 400px;
-
  }
+
  .navlink > a  {
     /* links de header*/
     color: rgb(185, 223, 163);
@@ -42,9 +42,18 @@
     font-weight: bold;
    }
 
+   @media screen and (max-width: 600px) {
+    .navlink > a {
+
+        width: 100%;
+        display: block;
+        justify-content: center;
+
+    }
+}
+
  .navlink > a:hover {
-     color: #222c1d;
-     
+     color: #222c1d;     
  }
 
  .imagen {
