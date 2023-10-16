@@ -1,0 +1,88 @@
+{
+    "resultados": [
+        {
+            "id": 1,
+            "descripcion": " BICICLETA  SHIFTER  ",
+            "rodado": "29",
+            "tipo": "Montain bike",
+            "grupo etario": "Adultos ",
+            "genero": "Sin género ",
+            "suspension": " Delantera ",
+            "frenos": " a disco mecánico ",
+            "velocidades": " 21",
+            "foto": "https://http2.mlstatic.com/D_NQ_NP_989526-MLA48109395058_112021-O.webp"
+        },
+        {
+            "id": 2,
+            "descripcion": " RALEIGH Classic lady",
+            "rodado": "28",
+            "tipo": "Urbana",
+            "grupo etario": "Adultos ",
+            "genero": "Mujer ",
+            "suspension": " Delantera ",
+            "frenos": " sin especificar ",
+            "velocidades": "Sin datos",
+            "foto": "https://http2.mlstatic.com/D_NQ_NP_972780-MLA46039046092_052021-O.webp" 
+        },
+        {
+            "id": 3,
+            "descripcion": " RALEIGH Mojave 2.0",
+            "rodado": "29",
+            "tipo": "Montain bike",
+            "grupo etario": "Adultos ",
+            "genero": "Unisex ",
+            "suspension": " Delantera ",
+            "frenos": " sin especificar ",
+            "velocidades": " 21",
+            "foto": "https://http2.mlstatic.com/D_NQ_NP_688046-MLA49730012781_042022-O.webpp"
+        },
+        {
+            "id": 4,
+            "descripcion": "  Vairo Islander 21V Shimano VBrake",
+            "rodado": "29",
+            "tipo": "Urbana",
+            "grupo etario": "Adultos ",
+            "genero": "Hombre ",
+            "suspension": " Delantera ",
+            "frenos": " SHIMANO V BRAKE ",
+            "velocidades": " 21",
+            "foto": "https://borabikes.com.ar/64299-large_default/bicicleta-urbana-hombre-vairo-islander-21v-shimano-vbrake.jpg"
+        },
+        {
+            "id": 5,
+            "descripcion": "  Vairo Islander 21V Shimano VBrake",
+            "rodado": "29",
+            "tipo": "Urbana",
+            "grupo etario": "Adultos ",
+            "genero": "Hombre ",
+            "suspension": " Delantera ",
+            "frenos": " SHIMANO V BRAKE ",
+            "velocidades": " 21",
+            "foto": "https://www.casadelaudio.com/Image/0/500_500-170-myo-001.jpg"
+        },
+        {
+            "id": 6,
+            "descripcion": "  Monopatín Eléctrico Max-You C1",
+            "rodado": "8 p",
+            "tipo": "Urbano",
+            "grupo etario": "Adultos ",
+            "genero": "Unisex ",
+            "suspension": " Trasera ",
+            "frenos": " A disco delantero -ABS",
+            "velocidades": " 25 km",
+            "foto": "https://www.casadelaudio.com/Image/0/500_500-170-myo-001.jpg"
+        },
+        {
+            "id": 7,
+            "descripcion": "  Monopatin Electrico REVEL-PRO M2",
+            "rodado": "20 p",
+            "tipo": "Todo tipo caminos",
+            "grupo etario": "Adultos ",
+            "genero": "Unisex ",
+            "suspension": " Delantera ",
+            "frenos": "Disco Delantero/ Disco Trasero",
+            "velocidades": " 25 km",
+            "foto": " https://http2.mlstatic.com/D_NQ_NP_2X_751145-MLA54009359183_022023-F.webp"
+        }
+    ]
+}
