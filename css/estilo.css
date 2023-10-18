@@ -181,7 +181,25 @@ button:hover {
     font-weight: bold;
 }
 
-/*fin estilos de reserva
+/*fin estilos de reserva*/
 
+.todoterreno{
+   
+    width: 50%;
+    margin-left: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  
+}
+.tarjetaHeader{
+    
+    display: block;
+    margin: 0.5%;
+    padding: 0.5%;
+       
+    border-radius: 5%;
+ 
 
+}
 

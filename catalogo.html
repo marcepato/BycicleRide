@@ -14,7 +14,7 @@
 
 <body>
 
-    <!-- <header>
+    <header>
         <div class="header">
             <div>
                 <img id=home src="./imagenes/logoSlogan.png" alt="logo">
@@ -31,16 +31,28 @@
                 <a href="sucursales.html">Encuentro</a>
             </div>
         </div>
-    </header>-->
+    </header>
+    <br><br><br>
     <main>
 
-
-        <div class="imagen">
+        <div class="todoterreno">
             <img src="./imagenes/todoterreno.jpg" alt="Todoterreno">
+            <div class="tarjetaHeader" v-for="elemento in datos">
+                <p>ID:1</p>
+                <p>Nombre:{{elemento.descripcion}}</p>
+                <p>Tipo:{{elemento.tipo}}</p>
+                <p>Grupo Etareo:{{elemento.grupoEtario}}</p>
+                <p>Genero:{{elemento.genero}}</p>
+                <p>Velocidades:{{elemento.velocidades}}</p>
+                <p>Rodado:{{elemento.rodado}}</p>
+
+            </div>
+           
         </div>
 
 
         <div id="app">
+
             <div class="tarjeta" v-for="elemento in datos">
                 <img v-bind:src="elemento.foto" :alt="elemento.nombre">
                 <p>ID:{{elemento.id}}</p>
@@ -61,7 +73,7 @@
 
     </main>
 
-    <!--  <footer>
+    <footer>
 
         <div class="footer">
 
@@ -76,7 +88,7 @@
             </a>
 
         </div>
-    </footer>-->
+    </footer>
 
 
 
