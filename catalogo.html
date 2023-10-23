@@ -22,7 +22,6 @@
             </div>
 
 
-
             <a href="https://api.whatsapp.com/send?phone=01141683861">
                 <img id="wht" src="./imagenes/whatsapp.png" alt="">
             </a>
@@ -31,41 +30,19 @@
                 <a href="catalogo.html">Catalogo</a>
                 <a href="reserva.html">Reserva</a>
                 <a href="sucursales.html">Encuentro</a>
+                <a href="SitiosInteres.html">Sitios de Interes</a> 
             </div>
         </div>
     </header>
     <br><br><br>
     <main>
-        
-        </script>
-
-        <div  class="todoterreno">
-            <img src="./imagenes/todoterreno.jpg" alt="Todoterreno">
-            <div class="tarjetaHeader" v-for="elemento in datos">
-                <p>ID:1</p>
-                <p>Nombre:{{elemento.descripcion}}</p>
-                <p>Tipo:{{elemento.tipo}}</p>
-                <p>Grupo Etareo:{{elemento.grupoEtario}}</p>
-                <p>Genero:{{elemento.genero}}</p>
-                <p>Velocidades:{{elemento.velocidades}}</p>
-                <p>Rodado:{{elemento.rodado}}</p>
-
-            </div>
-           
-        </div>
-
-
+     
         <div id="app">
 
             <div class="tarjeta" v-for="elemento in datos">
-               
-                <p v-if="elemento.tipo==='0'">Tipo: Montain Bike</p>
-                <p v-if="elemento.tipo==='1'">Tipo: Urbana</p>
-                <p v-if="elemento.tipo==='2'">Tipo: Monopatin</p>
-               
-                
+                               
                 <img v-bind:src="elemento.foto" :alt="elemento.nombre">
-                <p>ID:{{elemento.id}}</p>
+              <!--  <p>ID:{{elemento.id}}</p>-->
                 <p>Nombre:{{elemento.descripcion}}</p>      
                 <p>Grupo Etareo:{{elemento.grupoEtario}}</p>
                 <p>Genero:{{elemento.genero}}</p>
@@ -77,7 +54,6 @@
 
         <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
         <script src="./js/main.js"></script>
-
 
     </main>
 
